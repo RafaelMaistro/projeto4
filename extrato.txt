@@ -1,0 +1,9 @@
+Extrato para o cliente 1:
+Nome: 1
+Sobrenome: 1 
+Tipo de conta: comum
+Débitos que foram realizados: 100.00
+Depósitos que foram realizados: 1000.00
+Transferências que foram realizadas: -100.00
+Taxa: 0.05
+Saldo atual: 1795.00
