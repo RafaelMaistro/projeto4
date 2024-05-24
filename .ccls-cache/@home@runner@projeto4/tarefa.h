@@ -16,11 +16,19 @@ typedef struct {
     char tipoConta[TIPO_CONTA];
     float saldo;
     float debito;
+    float deposito;
+    float transferencia;
+    float taxaDesconto;
 } Cliente;
 
 void novoCliente(Cliente lista[], int *numClientes);
 void listarClientes(Cliente lista[], int numClientes);
 void deletarCliente(Cliente lista[], int *numClientes);
+float debitar(Cliente lista[], int numClientes);
+float depositoCliente(Cliente lista[], int numClientes);
+void extrato(Cliente lista[], int numClientes);
+void transferencia(Cliente lista[], int numClientes);
+
 void clearBuffer();
 
 #endif
